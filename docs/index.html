@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEMONSLAYER</title>
+    <meta name="description" content="Practica pagina web con flex">
+    <meta name="keywords" content="demon slayer, flex">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="queries.css">
+    <link rel="icon" href="images\logo.png" type="image/png" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="#top">
+            <img class="mainlogo" src="images/logo.png" width="60">
+        </a>
+        <nav id="navbar" class="navbar navbar-light px-3">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#plot_summary">Plot Summary</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#movie">Movie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#main_characters">Main Characters</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
+                </li>
+				<button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#subscribeModal">
+					Subscribe now
+				</button>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="plot_summary" class="story">
+            <img class="story__element" src="images/demonslayer.jpg" alt="Demon Slayer" height="450px" />
+            <article class="story__element">
+                <h2>Plot Summary</h2>
+                <p>
+                    Tanjiro Kamado is a kind-hearted and intelligent boy who lives with his family in the mountains. He
+                    has become his family's sole source of income after the passing of his father, making trips to the
+                    nearby village to sell charcoal. Everything changes when he comes home one day to discover that his
+                    family has been attacked and slaughtered by a demon. Tanjiro and his sister Nezuko are the sole
+                    survivors of the incident, with Nezuko being transformed into a demon, but still surprisingly
+                    showing signs of human emotion and thought. After an encounter with Giyū Tomioka, a demon slayer,
+                    Tanjiro is recruited by him and sent to be taught by Sakonji Urokodaki, another member of the Demon
+                    Slayer Corps, to also become a demon slayer, and begins his quest to help his sister turn human
+                    again and avenge the deaths of the rest of his family.
+                </p>
+            </article>
+        </section>
+        <section id="movie" class="movie">
+            <img class="movie__element" src="images/movie.jpg" alt="Demon Slayer: Mugen Train" height="450px" />
+            <article class="movie__element">
+                <h2>Movie</h2>
+                <p>
+                    The movie fully adapts the Mugen Train Arc of the manga.
+                    Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train is a follow-up to the extremely popular TV
+                    series Demon Slayer: Kimetsu No Yaiba (2019) that premiered in April 2019 and was based on Koyoharu
+                    Gotouge's comic, which boasts over 100 million copies in circulation in Japan. Featuring animation
+                    production from revered animation studio Ufotable, the story follows Tanjiro Kamado's journey as a
+                    demon slayer after his family is brutally murdered and his sister is turned into a demon. The film
+                    opens as Tanjiro and his comrades have completed their rehabilitation training at the Butterfly
+                    Mansion, and they arrive at their next mission on the Mugen Train, where over forty people have
+                    disappeared in a very short span of time. Tanjiro and Nezuko, along with Zenitsu and Inosuke, join
+                    one of the most powerful swordsmen of the Demon Slayer Corps, Flame Hashira Kyojuro Rengoku, to face
+                    the demon aboard the Mugen Train, on track to despair.
+                </p>
+            </article>
+        </section>
+        <section id="main_characters" class="characters">
+            <h2>Main Characters</h2>
+            <div class="characters__container">
+                <article class="characters__card">
+                    <img class="card-img-top" src="images/perfil-tanjiro.jpeg" alt="Tanjiro Kamado">
+                    <div class="card-body">
+                        <h5 class="card-title">Tanjiro Kamado</h5>
+                        <p class="card-text">The oldest son of a charcoal-seller. His entire family was massacred while he was selling charcoal, with only his sister Nezuko surviving. To find a cure to turn her back into a human, he decides to join the Demon Slayer Corps. He initially learnt the "Water Breathing" sword-style, but later he began to use his family's "Dance of the Fire God" technique, which itself is based on the original breath style, the Sun Breathing. </p>
+                    </div>
+                </article>
+                <article class="characters__card">
+                    <img class="card-img-top" src="images/perfil-nezuko.jpeg" alt="Nezuko Kamado">
+                    <div class="card-body">
+                        <h5 class="card-title">Nezuko Kamado</h5>
+                        <p class="card-text">Tanjiro's younger sister who was turned into a demon. She retained enough
+                            of her memories to keep herself from killing Tanjiro. Due to two years of hypnotic
+                            conditioning by Urokodaki, Nezuko regards all humans as her family and will mercilessly
+                            attack any demon that threatens them. Instead of consuming human flesh, Nezuko regains
+                            energy from sleep. She was unable to speak and must wear a bamboo gag to keep from biting
+                            anyone. </p>
+                    </div>
+                </article>
+                <article class="characters__card">
+                    <img class="card-img-top" src="images/perfil-zenitsu.jpeg" alt="Zenitsu Agatsuma">
+                    <div class="card-body">
+                        <h5 class="card-title">Zenitsu Agatsuma</h5>
+                        <p class="card-text">Extremely cowardly boy who was forced to join the Demon Slayer Corps at
+                            around the same time as Tanjiro to pay for his debts. Zenitsu Agatsuma trained in the
+                            "Thunder Breathing" style by the former Thunder Hashira, but was only able to learn the
+                            first technique, and because of this he often belittles himself, despite the fact that he is
+                            talented. He joins up with Tanjiro on a mission and since then, they are teammates. </p>
+                    </div>
+                </article>
+                <article class="characters__card">
+                    <img class="card-img-top" src="images/perfil-inosuke.jpeg" alt="Inosuke Hashibira">
+                    <div class="card-body">
+                        <h5 class="card-title">Inosuke Hashibira</h5>
+                        <p class="card-text">A young boy who was raised by his mother Kotoha Hashibira for a short time
+                            until she was murdered by one of the Upper Twelve Moons. He was raised by wild boars and
+                            uses a self-taught style called "Beast Breathing", along with two serrated swords in battle.
+                            He wears a boar's head mask and reacts very violently. At first, he saw Tanjiro as an enemy,
+                            but they quickly become friends and teammates. </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="subscribe" class="subscribe">
+            <h2>Subscribe</h2>
+            <div class="container__subscribe--form">
+                <p>Join the Demon Slayer group and you will receive all the latest news about the greatest anime as well as exclusive content. </p>
+                <div class="subscribe__form">
+                    <input type="text" class="form-control" placeholder="Name">
+                    <input type="text" class="form-control" placeholder="Surname">
+                    <input type="text" class="form-control" placeholder="email">
+                    <button type="button" class="btn btn-light btn-block">Send</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="/">Terminos de uso</a>
+        <a href="/">Declaración de privacidad</a>
+        <a href="/">Centro de ayuda</a>
+
+  
+	<!-- Modal -->
+    <div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Subscribe now</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+				Join the Demon Slayer group and you will receive all the latest news about the greatest anime
+				as well as exclusive content.
+				<div class="modal__form">
+					<input type="text" class="form-control" placeholder="Name">
+					<input type="text" class="form-control" placeholder="Surname">
+					<input type="text" class="form-control" placeholder="email">
+				</div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-outline-danger">Save changes</button>
+            </div>
+        </div>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+<script src="actions.js"></script>
+</footer>
+</body>  
+</html>

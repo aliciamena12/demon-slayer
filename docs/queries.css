@@ -1,0 +1,243 @@
+
+/**************************
+ __  __       _     _ _      
+|  \/  |     | |   (_) |     
+| \  / | ___ | |__  _| | ___ 
+| |\/| |/ _ \| '_ \| | |/ _ \
+| |  | | (_) | |_) | | |  __/
+|_|  |_|\___/|_.__/|_|_|\___|
+                                                       
+***************************/
+@media (min-width: 320px) and (max-width: 575px){ 
+    header {
+        height: fit-content;
+    }
+
+    header a:hover {
+        text-transform:none;
+    }
+
+    .story {
+        flex-direction: column-reverse;
+    }
+
+    .story article {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .movie {
+        flex-direction: column-reverse;
+    }
+
+    .movie article {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .characters__container {
+        width: 90%;
+        display: inline-flex;
+    }
+
+    .characters__card {
+        width: 300px;
+
+    }
+
+    .card-body {
+        height: fit-content;
+
+    }
+
+    .subscribe {
+        padding: 10px;
+        height:fit-content;
+        height: 700px;
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .subscribe h2 {
+        margin: 20px 0px 0px 30px;
+    }
+
+    .container__subscribe--form {
+        justify-content: center;
+        margin: 10px 0px 10px 10px;
+
+    }
+
+    .subscribe__form {
+        width: 90%;
+
+    }
+
+    .subscribe__form input {
+        margin: 10px 0px 20px 10px;
+    }
+
+    .subscribe button {
+        margin-left: 10px;
+    }
+ 
+    .container__subscribe--form p {
+        justify-content: center;
+        font-size: 20px;
+        margin: 20px 20px 10px 20px;
+        width: 90%;
+    }
+
+    .footer {
+        box-sizing: border-box;
+        flex-direction: column;
+        height: fit-content;
+        padding: 10px 0px;
+    }
+}
+
+
+/**************************
+ _______    _     _      _   
+|__   __|  | |   | |    | |  
+   | | __ _| |__ | | ___| |_ 
+   | |/ _` | '_ \| |/ _ \ __|
+   | | (_| | |_) | |  __/ |_ 
+   |_|\__,_|_.__/|_|\___|\__|
+
+***************************/
+@media (min-width: 576px) and (max-width: 767px){
+    .container {
+        width: 540px;
+    }
+
+    .story {
+        flex-direction: column-reverse;
+    }
+
+    .story article {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    .movie {
+        flex-direction: column-reverse;
+    }
+
+    .movie article {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .characters__card {
+        width: 300px;
+        height: fit-content;
+
+    }
+    .subscribe {
+        padding: 10px;
+        height:fit-content;
+        height: 700px;
+        width: 100%;
+        justify-content: center;
+
+    }
+    .container__subscribe--form p {
+        margin: 30px 20px 20px 20px;
+        width: 90%;
+    }
+
+    .subscribe__form {
+        width: 90%;
+
+    }
+
+    .footer {
+        width: 100%;
+        flex-direction: row;
+        height: fit-content;
+        padding: 20px 0px;
+        justify-content: space-around;
+    }
+
+}
+
+
+/**************************
+ _                 _              
+| |               | |             
+| |     __ _ _ __ | |_ ___  _ __  
+| |    / _` | '_ \| __/ _ \| '_ \ 
+| |___| (_| | |_) | || (_) | |_) |
+|______\__,_| .__/ \__\___/| .__/ 
+            | |            | |    
+            |_|            |_|    
+
+***************************/
+@media (min-width: 768px) and (max-width: 991px){
+    .container {
+        width: 720px;
+    }
+
+    .story {
+        flex-direction: row;
+    }
+
+    .story article {
+        width: 50%;
+    }
+
+    .movie {
+        flex-direction: row-reverse;
+    }
+
+    .movie article {
+        width: 50%;
+    }
+
+    .characters__card {
+        width: 270px;
+        height: fit-content;
+    }
+
+    .container__subscribe--form p {
+        margin: 30px 20px 20px 20px;
+        width: 50%;
+    }
+
+    .subscribe__form {
+        width: 50%;
+    }
+
+
+    .footer {
+        width: 100%;
+        flex-direction: row;
+        height: fit-content;
+        padding: 20px 0px;
+        justify-content: space-around;
+    }
+
+}
+
+
+
+
+/**************************
+ _____            _    _              
+|  __ \          | |  | |             
+| |  | | ___  ___| | _| |_ ___  _ __  
+| |  | |/ _ \/ __| |/ / __/ _ \| '_ \ 
+| |__| |  __/\__ \   <| || (_) | |_) |
+|_____/ \___||___/_|\_\\__\___/| .__/ 
+                               | |    
+                               |_| 
+
+***************************/
+
+@media (min-width: 992px){
+    .container {
+        width: 940px;
+    }
+}
